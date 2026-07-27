@@ -1,29 +1,51 @@
-# Education Pals Build Pack
+# "Why does it merge my clauses?" probe kit for any attention setup you're about to trust
 
-- Course: `2ad65768-198c-5614-ba63-948602ecc629`
-- Chapter: `f08a37ef-1040-5bf3-b80c-7b920f5c9251`
-- Template: `baw_c002_ch05`
-- Compiled: 2026-07-27T19:22:16.946Z
-- Verification token: `01KYJGE9FJV689JH0PGKK67FZ4`
-- Composition mode: `shipgen`
-- Workshop publication: `01KYJGDN3497Q986PPBATG1RNY`
-- Proof challenge: `8b695aff7b1f8dcf0b3b795362678d32`
-- Artifact type: `baw.v3`
-- Repository: https://github.com/educationpals-builds/user-baw-ai-1785180006852-build
+## The Specimen
 
-## Variants
+A compound sentence where clause boundaries blur:
 
-- `README.md` → `README.md`
-- `charter.md` → `charter.md`
-- `blueprints/head-map-interrogator.md` → `blueprints/head-map-interrogator.md`
-- `prompts/split-walk-pack.md` → `prompts/split-walk-pack.md`
-- `METHOD.md` → `METHOD.md`
-- `VERIFY.md` → `VERIFY.md`
-- `.ep/provenance.json` → `.ep/provenance.json.md`
+```
+The server crashed because the cache overflowed and the logs filled up so the admin restarted it while users complained.
+```
 
-## Files
+Dimension: 5 clauses, 1 sentence, 0 explicit delimiters between causal chains.
 
-- `manifest.json` — verification manifest
-- `instructions.md` — paste tips per variant
+## The Verdict
+
+Attention mechanisms in transformer architectures blend adjacent tokens when clause boundaries lack explicit markers. This causes:
+- Causal attribution errors (which event caused which?)
+- Relationship merging (treating sequential events as simultaneous)
+- Agent confusion (who did what?)
+
+**Severity: Medium-High** — Silent corruption of logical relationships.
+
+## The Tripwire
+
+If your attention setup cannot separately identify:
+1. The crash event
+2. The cache overflow (cause)
+3. The log fill (parallel cause)
+4. The restart action
+5. The user complaints (concurrent event)
+
+...then it is merging your clauses. Do not trust causal reasoning from this setup.
+
+## One-Paste Rebuild Block
+
+```
+SPECIMEN: "The server crashed because the cache overflowed and the logs filled up so the admin restarted it while users complained."
+
+TASK: Identify each clause boundary. For each clause, state:
+- The agent (who/what acts)
+- The action
+- The causal relationship to adjacent clauses
+- Confidence score (0-100)
+
+FAIL CONDITION: Any clause merged with another, any causal arrow reversed, any agent misattributed.
+```
+
+---
+
+**Build**: baw.v3 | **Status**: ai_drafted | **Provenance**: see `.ep/provenance.json`
 
 <!-- educationpals-build-verified -->
